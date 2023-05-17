@@ -101,7 +101,7 @@ end
 `git push > /dev/null 2>&1`
 
 if $? == 0
-    puts 'Pushed'
+    puts '\e[32mPushed ✔️\e[0m'
 else
     puts 'Something went wrong...'
     exit 1
