@@ -85,7 +85,7 @@ end
 if $? == 0
     puts "Added #{files.join(', ')}"
 else
-    puts 'Something went wrong...'
+    puts "Something went wrong... #{@emoji[type.downcase]}"
     exit 1
 end
 
