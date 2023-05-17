@@ -83,7 +83,7 @@ end
 `git add #{files.join(' ')} > /dev/null 2>&1`
 
 if $? == 0
-    puts "Added #{files.join(', ')} #{@emoji[type.downcase]}"
+    puts "Added #{files.join(', ')}"
 else
     puts 'Something went wrong...'
     exit 1
