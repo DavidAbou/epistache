@@ -92,7 +92,7 @@ end
 `git commit -m "#{@emoji[type.downcase]} #{type.capitalize}: #{message}" > /dev/null 2>&1`
 
 if $? == 0
-    puts 'Committed'
+    puts "Committed #{@emoji[type.downcase]}"
 else
     puts 'Something went wrong...'
     exit 1
@@ -101,7 +101,7 @@ end
 `git push > /dev/null 2>&1`
 
 if $? == 0
-    puts '\e[32mPushed ✔️\e[0m'
+    puts "\e[32mPushed ✔️\e[0m"
 else
     puts 'Something went wrong...'
     exit 1
