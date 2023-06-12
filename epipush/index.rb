@@ -50,11 +50,12 @@ if ARGV[0] == 'list'
     \r🔍 Test: When adding, modifying, or running tests."
     exit
 elsif ARGV[0] == '-h'
-    puts "USAGE\n\tepipush [type] [message] [files]\n
+    puts "USAGE\n\t./epipush [type] [message] [files]\n
     \rDESCRIPTION
-    \r\tType\tType of commit. Use 'epipush list' to see all types.
+    \r\tType\tType of commit. Use \'./epipush list\' to see all types.
     \r\tMessage\tCommit message.
-    \r\tFiles\tFiles to commit."
+    \r\tFiles\tFiles to commit.\n
+    Example : ./epipush fix \"Bug leading to segfault\" myfile.c\n\n"
     exit
 end
 
