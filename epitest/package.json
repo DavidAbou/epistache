@@ -1,7 +1,6 @@
 {
   "name": "epites",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +14,5 @@
     "node-tesseract-ocr": "^2.2.1",
     "puppeteer": "^19.7.5"
   },
-  "devDependencies": {
-    "colors": "^1.4.0",
-    "prompts": "^2.4.2"
-  }
+  "description": ""
 }
