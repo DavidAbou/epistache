@@ -55,7 +55,7 @@ elsif ARGV[0] == '-h'
     \r\tType\tType of commit. Use \'./epipush list\' to see all types.
     \r\tMessage\tCommit message.
     \r\tFiles\tFiles to commit.\n
-    Example : ./epipush fix \"Bug leading to segfault\" myfile.c\n\n"
+    \rExample : ./epipush fix \"Bug leading to segfault\" myfile.c\n\n"
     exit
 end
 
